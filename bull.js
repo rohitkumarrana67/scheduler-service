@@ -1,4 +1,4 @@
 const Queue = require('bull');
-const firstQueue = new Queue('first-queue');
+const BullQueue = new Queue('first-queue');
 
-module.exports = firstQueue;
+module.exports = BullQueue;
